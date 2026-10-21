@@ -112,24 +112,13 @@ Tap any food card to view full nutrition data, adjust shelf life, change storage
 
 ---
 
-### 5. Gamification, Community & Zero-Waste Streaks
-Stay motivated to cut household food waste through communal challenges, waste-reduction streaks, and friend leaderboards.
+### 5. Zero-Waste Challenges & Household Milestones
+Stay motivated to cut household food waste through goal-oriented challenges, waste-reduction streaks, and milestone achievements.
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <img src="screenshots/11_zero_waste_challenges.png" alt="Zero-Waste Challenges" width="280" /><br />
-        <b>Zero-Waste Challenges</b><br />
-        <i>Track waste reduction milestones, streak multipliers, and achievements</i>
-      </td>
-      <td align="center" width="50%">
-        <img src="screenshots/12_social_leaderboard.png" alt="Social Leaderboard" width="280" /><br />
-        <b>Community Leaderboard</b><br />
-        <i>Connect with friends, compare waste savings, and share accomplishments</i>
-      </td>
-    </tr>
-  </table>
+  <img src="screenshots/11_zero_waste_challenges.png" alt="Zero-Waste Challenges" width="300" /><br />
+  <b>Zero-Waste Challenges & Streaks</b><br />
+  <i>Track waste reduction goals, active streaks, and food-saving achievements</i>
 </div>
 
 ---
@@ -167,7 +156,7 @@ Designed for speed with local short-circuit intent routing (0 LLM tokens, <50ms 
 * **AI & Vision Pipeline**: Multi-modal vision analysis using **Google Gemini Flash** with strict JSON schema parsing, preset enrichment, and prompt compression (~65% token reduction).
 * **Local-First Routing Engine**: Tier 0 pre-LLM regex short-circuiting routing frequent pantry queries locally in 0ms and 0 tokens.
 * **Nutrition Database**: Offline registry of **480+ USDA FoodData Central** items with dynamic macronutrient scaling.
-* **Backend & Auth**: **Supabase (PostgreSQL)** with Row-Level Security (RLS) for cloud synchronization, multi-device backup, and social features.
+* **Backend & Auth**: **Supabase (PostgreSQL)** with Row-Level Security (RLS) for cloud synchronization, multi-device backup, and inventory data storage.
 * **Offline Cache**: Local SQLite / Shared Preferences cache ensuring 100% offline functionality.
 
 ---
