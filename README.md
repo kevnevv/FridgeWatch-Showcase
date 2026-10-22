@@ -1,4 +1,5 @@
-# 🧊 FridgeWatch — Intelligent Inventory & AI Culinary Assistant
+
+# FridgeWatch — Smart Inventory & AI Recipe Assistant
 
 <div align="center">
   <img src="screenshots/app_logo.png" alt="FridgeWatch Logo" width="100" />
@@ -17,10 +18,8 @@
 
 ---
 
-## 📱 Visual Feature Showcase
-
-### 1. Smart Inventory & Expiry Tracking
-Track items across custom kitchen storage zones (**Fridge**, **Freezer**, **Pantry**) with deterministic shelf-life calculation, category color tagging, and color-coded expiration indicators (Urgent, Soon, Good).
+## 1. Smart Inventory & Expiry Tracking
+Track items across custom kitchen storage zones (**Fridge**, **Freezer**, **Pantry**) with deterministic shelf-life calculation, category color tagging, and color-coded expiration indicators (Urgent, Soon, Good) based on the days remaining of the item, this can be changed in the settings.
 
 <div align="center">
   <table>
@@ -41,8 +40,8 @@ Track items across custom kitchen storage zones (**Fridge**, **Freezer**, **Pant
 
 ---
 
-### 2. AI Sous-Chef & Zero-Waste Meal Planning
-Powered by **Google Gemini Flash**, the in-app culinary assistant analyzes your current stock, identifies ingredients nearing expiration, suggests recipes to prevent waste, and executes natural-language pantry commands (e.g. *"I ate a kiwi"*, *"Add 2 avocados with 4 days shelf life"*).
+## 2. AI Sous-Chef & Zero-Waste Meal Planning
+Powered by an LLM model, the in-app culinary assistant analyzes your current stock, identifies ingredients nearing expiration, suggests recipes to prevent waste, and executes natural-language pantry commands (e.g. *"I ate a kiwi"*, *"Add 2 avocados with 4 days shelf life"*).
 
 <div align="center">
   <table>
@@ -63,8 +62,8 @@ Powered by **Google Gemini Flash**, the in-app culinary assistant analyzes your 
 
 ---
 
-### 3. USDA Nutrition Analytics & Consumption History
-Integrates an offline laboratory reference database of **480+ USDA FoodData Central** staple foods. Calculates daily and weekly calorie totals, macronutrient splits (Protein, Carbs, Fats, Fiber), and allows users to shift logged dates or recalibrate metrics in real time.
+## 3. USDA Nutrition Analytics & Consumption History
+Integrating an offline laboratory reference database of **480+ USDA FoodData Central** staple foods and from **Open Food Facts**. Calculates daily and weekly calorie totals, macronutrient splits (Protein, Carbs, Fats, Fiber), within their food items or recipes to be cooked.
 
 <div align="center">
   <table>
@@ -85,7 +84,7 @@ Integrates an offline laboratory reference database of **480+ USDA FoodData Cent
 
 ---
 
-### 4. Item Details, Restocking & Grocery Management
+## 4. Item Details, Restocking & Grocery Management
 Tap any food card to view full nutrition data, adjust shelf life, change storage locations, or set reminders. When consuming food, a smart confirmation dialog offers instant restoration back to stock or additions to your shopping list.
 
 <div align="center">
@@ -112,18 +111,7 @@ Tap any food card to view full nutrition data, adjust shelf life, change storage
 
 ---
 
-### 5. Zero-Waste Challenges & Household Milestones
-Stay motivated to cut household food waste through goal-oriented challenges, waste-reduction streaks, and milestone achievements.
-
-<div align="center">
-  <img src="screenshots/11_zero_waste_challenges.png" alt="Zero-Waste Challenges" width="300" /><br />
-  <b>Zero-Waste Challenges & Streaks</b><br />
-  <i>Track waste reduction goals, active streaks, and food-saving achievements</i>
-</div>
-
----
-
-### 6. Power-User Workflows & Local Intent Routing
+## 5. Power-User Workflows & Local Intent Routing
 Designed for speed with local short-circuit intent routing (0 LLM tokens, <50ms response for inventory queries), instant undo capabilities, customizable quick prompts, and background push reminders.
 
 <div align="center">
@@ -150,7 +138,7 @@ Designed for speed with local short-circuit intent routing (0 LLM tokens, <50ms 
 
 ---
 
-## 🛠️ Technical Stack & Architecture
+## Technical Stack & Architecture
 
 * **Client**: Cross-platform mobile client built with **Flutter / Dart** for high-framerate iOS and Android performance.
 * **AI & Vision Pipeline**: Multi-modal vision analysis using **Google Gemini Flash** with strict JSON schema parsing, preset enrichment, and prompt compression (~65% token reduction).
@@ -161,7 +149,7 @@ Designed for speed with local short-circuit intent routing (0 LLM tokens, <50ms 
 
 ---
 
-## 🔒 Source Code Notice
+## Source Code Notice
 
 > **Notice**: This repository is a **public showcase and architectural summary**. The core source code is maintained in a private repository for personal use.  
 > Demos and technical walkthroughs are available upon request for interview purposes.
